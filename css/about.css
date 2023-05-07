@@ -1,0 +1,46 @@
+.contenedor {
+    width: 100vw;
+    height: 100vh;
+  }
+  .sidebar {
+    height: 100vh;
+  }
+  .title-container {
+    height: 25%;
+  }
+  .btn-none {
+    display: none !important;
+  }
+  .initial-list {
+    height: 70%;
+  }
+  .title{
+      text-shadow:2px 2px 0px rgba(7, 7, 7, 0.945) ;
+  }
+  .links:hover{
+      color: aliceblue!important;
+  }
+  .about-content{
+   background-image: url(../img/wave-haikei.svg);
+  }
+
+  @media (max-width: 575px) {
+    .sidebar {
+      height: 15vh;
+    }
+    .content {
+      height: 85vh;
+    }
+    .title-container {
+      height: 100%;
+    }
+    .btn-none {
+      display: initial !important;
+    }
+    .initial-list {
+      display: none !important;
+    }
+    .btn-none{
+      border: none!important;
+    }
+  }
