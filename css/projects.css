@@ -6,6 +6,9 @@
     height: 100vh;
   }
  
+  .main{
+    height: 100vh;
+  }
   .title-container {
     height: 25%;
   }
@@ -23,11 +26,17 @@
   .links:hover{
       color: aliceblue!important;
   }
+  .projects{
+    overflow-y: scroll;
+  }
   @media (max-width: 575px) {
     .sidebar {
       height: 15vh;
     }
 
+    .main{
+      height: 85vh;
+    }
     .title-container {
       height: 100%;
     }
