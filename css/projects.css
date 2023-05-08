@@ -5,6 +5,7 @@
   .sidebar {
     height: 100vh;
   }
+ 
   .title-container {
     height: 25%;
   }
@@ -22,20 +23,11 @@
   .links:hover{
       color: aliceblue!important;
   }
-  .about-content{
-    background-color: transparent;
-  }
-  .icono{
-   font-size: 5em;
-  }
-
   @media (max-width: 575px) {
     .sidebar {
       height: 15vh;
     }
-    .about-content {
-      height: 85vh;
-    }
+
     .title-container {
       height: 100%;
     }
@@ -46,5 +38,5 @@
     .initial-list {
       display: none !important;
     }
-
   }
+  

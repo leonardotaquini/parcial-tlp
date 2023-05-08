@@ -22,6 +22,8 @@
 }
 .initial-list {
   height: 70%;
+  display: flex;
+  flex-direction: column;
 }
 .title{
     text-shadow:2px 2px 0px rgba(7, 7, 7, 0.945) ;
@@ -41,11 +43,9 @@
   }
   .btn-none {
     display: initial !important;
+    border: none!important;
   }
   .initial-list {
     display: none !important;
-  }
-  .btn-none{
-    border: none!important;
   }
 }
