@@ -4,14 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/contact.css">
     <!-- bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <!-- google icons -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <title>Document</title>
+    <title>Contact</title>
 </head>
 <body>
-    
+    <div class="contact-container bg-dark">
+        <header class="d-flex justify-content-center align-items-center shadow header flex-column">
+                <h1 class="text-white text-center fw-bold">Contact Me</h1>
+                <p class="text-secondary text-center">You can contact me and answer any questions</p>     
+        </header>
+
+        <main class="d-flex justify-content-center align-items-center main ">
+            <form action="" class="dark-bg-subtle form shadow rounded d-flex flex-column col-10 col-sm-6 col-lg-4 p-4">
+                <label for="name" class="text-secondary">Name</label>
+                <input type="text" id="name" class="form-control" required>
+
+                <label for="lastname" class="text-secondary">Last Name</label>
+                <input type="text" id="lastname" class="form-control" required>
+
+                <label for="email" class="text-secondary">Email</label>
+                <input type="email" id="email" class="form-control" required>
+
+                <label for="telefono" class="text-secondary">Phone Number</label>
+                <input type="number" id="telefono" class="form-control" required>
+                <a href="./index.html" class="btn btn-outline-success  my-2">Submit</a>
+                <a href="./index.html" class="btn btn-outline-primary ">Home</a>
+            </form>
+        </main>
+
+        <footer class="footer text-center text-secondary d-flex justify-content-center align-items-center">&copy; 2023 - All Rights Reserved</footer>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
 </html>

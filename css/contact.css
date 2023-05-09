@@ -1,0 +1,16 @@
+.contact-container{
+    height: 100vh;
+}
+.header{
+    height: 15vh;
+}
+.main{
+    height: 70vh;
+    background-color: rgba(25, 26, 27, 0.699);
+}
+.footer{
+    height: 15vh;
+}
+.form{
+    background-color: rgba(36, 44, 44, 0.651);
+}
