@@ -14,3 +14,15 @@
 .form{
     background-color: rgba(36, 44, 44, 0.651);
 }
+.icono-contacto:hover{
+    font-size: 3.2rem;
+}
+.form-modal{
+   
+}
+
+@media (max-width:550px) {
+    .icono-contacto:hover{
+        font-size: 2rem;
+    }
+}
