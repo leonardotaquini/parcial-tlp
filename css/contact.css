@@ -16,10 +16,9 @@
 }
 .icono-contacto:hover{
     font-size: 3.2rem;
+    cursor: pointer;
 }
-.form-modal{
-   
-}
+
 
 @media (max-width:550px) {
     .icono-contacto:hover{
